@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- shortcat icon -->
+    <link
+      rel="shortcut icon"
+      href="./img/shortcat icon.svg"
+      type="image/x-icon"
+    />
+    <!-- botstrap css -->
+    <link rel="stylesheet" href="./libs/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- media css -->
+    <link rel="stylesheet" href="./css/media.css" />
+    <!-- font awecome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>ecommerce</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container position-relative d-flex justify-content-between container-widther">
+        <div class="nav-cart">
+          <div class="nav-card-header">
+            <h5 class="nav-card-title">
+                Cart
+            </h5>
+          </div>
+          <div class="nav-card-body">
+            <div class="card-order">
+              <img src="./img/carousel-photo1.png" alt="" class="card-order-img">
+              <div class="card-order-texts">
+                <p class="card-order-title">Fall Limited Edition Sneakers</p>
+                <p class="card-order-pricex">$125.00 x 0</p>
+                <p class="card-order-price">$0</p>
+              </div>
+              <img src="./img/deleter.btn.svg" alt="" class="delete-img">
+             </div>
+          </div>
+        </div>
+        <nav class="header-nav">
+          <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" class="d-inline-block d-xl-none  m-3  ofcan-btn">
+            <img src="./img/nav-nav-btn.svg" alt="">
+          </a>
+          <a href="#!" class="nav-logo">
+            <img
+              src="./img/logotipe.svg"
+              alt="Header nav logo"
+              class="nav-logo-img"
+            />
+          </a>
+          <ul class="header-list d-none d-xl-flex  ">
+            <li class="header-item">
+              <a href="#!" class="header-link">Collections</a>
+              <span class="item-activ dfkjsaf"></span>
+            </li>
+            <li class="header-item">
+              <a href="#!" class="header-link">Men</a>
+              <span class="item-activ"></span>
+            </li>
+            <li class="header-item">
+              <a href="#!" class="header-link">Women</a>
+              <span class="item-activ"></span>
+            </li>
+            <li class="header-item">
+              <a href="#!" class="header-link">About</a>
+              <span class="item-activ"></span>
+            </li>
+            <li class="header-item">
+              <a href="#!" class="header-link">Contact</a>
+              <span class="item-activ"></span>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-hoper">
+          <a href="#!" class="shoper-shop">
+            <img src="./img/shop-nav-img.svg"alt=""class="shoper-shop__icon"/></a>
+          <a href="#!" class="shoper-avo">
+            <img src="./img/akaunt-foto.png" alt="" class="shoper-avo__icon" />
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="shopin">
+        <div class="container">
+          <div class="row row-of-01">
+            <div class="col-12 col-xl-6">
+              <div class="slider-section">
+                <img src="./img/carousel-photo1.png" alt="" data-img='1' class="slider-imger">
+                <div class="img-btn-box">
+                  <img src="./img/carousel-photo1.png" alt=""  data-img='1' class="img-btn-img">
+                  <img src="./img/carousel-photo2.png" alt=""  data-img='2' class="img-btn-img">
+                  <img src="./img/carousel-photo3.png" alt=""  data-img='3' class="img-btn-img">
+                  <img src="./img/carousel-photo4.png" alt=""  data-img='4' class="img-btn-img">
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-xl-6">
+              <div class="shopin-text">
+                <span class="shopin-subtitle">Sneaker Company</span>
+                <h1 class="shopin-title">Fall Limited Edition Sneakers</h1>
+                <p class="shopin-decs">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.0</p>
+                <div class="shopin-preces">
+                  <p class="shopin-price">$125.00</p>
+                  <p class="shopin-skid">50%</p>
+                  <p class="shopin-old__price">$250.00</p>
+                </div>
+                <div class="calck-of-btn">
+                  <div class="calck">
+                    <p class="calc-pluse calck-btn" data-sum="+">+</p>
+                    <p class="calck-indick">0</p>
+                    <p class="calc-minus calck-btn" data-sum="-">-</p>
+                    
+                  </div>
+                  <a href="#!" class="calck-btnaa all-btn"> Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+
+
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="header-list">
+          <li class="header-item">
+            <a href="#!" class="header-link">Collections</a>
+            <span class="item-activ dfkjsaf"></span>
+          </li>
+          <li class="header-item">
+            <a href="#!" class="header-link">Men</a>
+            <span class="item-activ"></span>
+          </li>
+          <li class="header-item">
+            <a href="#!" class="header-link">Women</a>
+            <span class="item-activ"></span>
+          </li>
+          <li class="header-item">
+            <a href="#!" class="header-link">About</a>
+            <span class="item-activ"></span>
+          </li>
+          <li class="header-item">
+            <a href="#!" class="header-link">Contact</a>
+            <span class="item-activ"></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- botstrap js -->
+    <script src="./libs/bootstrap.min.js"></script>
+    <!-- database js -->
+    <script src="./js/database.js"></script>
+    <!-- main js -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>

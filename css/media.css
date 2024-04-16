@@ -1,0 +1,76 @@
+@media (max-width: 1200px) {
+  .col-xl-6 {
+    display: flex;
+    align-items: center;
+  }
+  .slider-section {
+    margin: auto;
+  }
+  .shopin-text {
+    margin: auto;
+    margin-top: 40px;
+  }
+  .header-list {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin: 0;
+  }
+  .header-item {
+    width: auto;
+    height: 30px;
+  }
+  .header-link {
+    color: var(--dark-color);
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+  }
+  
+}
+@media (max-width: 992px) {
+  .calck-of-btn {
+    flex-direction: column;
+  }
+  .calck {
+    width: 100%;
+  }
+  .calck-btnaa {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+  }
+  .shopin-preces {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+  }
+  .shopin-price {
+    margin: 0;
+    margin-right: 16px;
+  }
+  .shopin-skid {
+  }
+  .shopin-old__price {
+    position: absolute;
+    right: 0;
+  }
+
+}
+@media (max-width: 768px) {
+  .slider-section {
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .shopin-text {
+    margin: 0;
+    margin-top: 40px;
+  }
+
+}
+@media (max-width: 576px) {
+}
